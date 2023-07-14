@@ -1,0 +1,522 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_3"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_4"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_5"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_5_1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_6"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_7"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_8"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_9"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_3"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_4"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_5"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_6"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_7"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_8"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.40" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_9"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_9_1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.475" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_10"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_10_1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.525" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_11"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_12"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_13"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_14"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_15"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_16"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_17"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_18"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_19"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_20"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeMaxTextSize="20dp"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/gray"
+        android:lines="2"
+        android:text="점과 점 사이를 화살표 방향으로 이어주세요\n위, 오른쪽, 아래, 왼쪽, 대각선 2방향(/,\\)"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_7"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_9"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_1"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_3" />
+
+    <ImageView
+        android:id="@+id/iv_upper_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/circle_24"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_1"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/gray" />
+
+    <ImageView
+        android:id="@+id/iv_upper_middle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/circle_24"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_1"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_5_1"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_4_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/gray" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_top"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_1"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/arrow" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_top_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/arrow" />
+
+    <ImageView
+        android:id="@+id/iv_upper_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/circle_24"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/gray" />
+
+    <ImageView
+        android:id="@+id/iv_middle_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/circle_24"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_10_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_9"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_9_1"
+        app:tint="@color/gray" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="90"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/arrow" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_right_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="90"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_9"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_10"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/arrow" />
+
+    <ImageView
+        android:id="@+id/iv_down_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/circle_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_9"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_20"
+        app:tint="@color/gray" />
+
+    <ImageView
+        android:id="@+id/iv_down_middle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/circle_24"
+        app:layout_constraintBottom_toBottomOf="@+id/lottie_bottom"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_5_1"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_4_1"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_20"
+        app:tint="@color/gray" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_bottom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_5"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_20"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/arrow" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_bottom_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_20"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/arrow" />
+
+    <ImageView
+        android:id="@+id/iv_down_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/circle_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_20"
+        app:tint="@color/gray" />
+
+    <ImageView
+        android:id="@+id/iv_middle_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/circle_24"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_10_1"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_9_1"
+        app:tint="@color/gray" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="270"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_10"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/arrow" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_left_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="270"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_10"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/arrow" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="135"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_10"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_6"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_5"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_9"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/arrow" />
+
+    <ImageView
+        android:id="@+id/iv_middle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/circle_24"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_10_1"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_5_1"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_4_1"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_9_1"
+        app:tint="@color/light_gray" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="135"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_11"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_5"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_4"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_10"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/arrow"
+        app:tint="@color/orange" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="45"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_10"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_5"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_4"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_9"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/arrow"
+        app:tint="@color/orange" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="45"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_11"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_6"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_5"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_10"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/arrow" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MyFragment">
+
+        <com.xlntsmmr.xlnt_phone.CustomView
+            android:id="@+id/customView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

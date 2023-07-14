@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    tools:context=".InitFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_10"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_90"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_10"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_70"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_ver_50"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_check"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/btn_ripple"
+        app:icon="@drawable/ic_check"
+        app:iconTint="@color/black"
+        app:iconGravity="textTop"
+        app:iconSize="30dp"
+        android:elevation="20dp"
+        android:text="검사하기"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeMaxTextSize="20dp"
+        android:layout_margin="10dp"
+        app:backgroundTint="@color/white"
+        app:elevation="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_90"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_90"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_50"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_70" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/btn_ripple"
+        android:layout_margin="10dp"
+        app:icon="@drawable/ic_check_code"
+        app:iconSize="30dp"
+        android:lines="2"
+        app:iconTint="#4CAF50"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeMaxTextSize="20dp"
+        android:text="검증 코드\n확인하기"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/gl_entire_hor_90"
+        app:layout_constraintEnd_toStartOf="@+id/gl_entire_ver_50"
+        app:layout_constraintStart_toStartOf="@+id/gl_entire_ver_10"
+        app:layout_constraintTop_toTopOf="@+id/gl_entire_hor_70" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_entire_hor_90"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
